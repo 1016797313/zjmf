@@ -40,7 +40,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.9.18***
+*魔方云系统支持版本：**3.9.22***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
@@ -83,7 +83,7 @@
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.0/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.22/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
    sed -i 's/^disable_functions *=.*/disable_functions = phpinfo/' /etc/php.ini
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
@@ -97,7 +97,7 @@
    wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.0/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.22/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
    sed -i 's/^disable_functions *=.*/disable_functions = phpinfo/' /etc/php.ini
    wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
